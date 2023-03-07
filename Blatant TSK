@@ -1,0 +1,9 @@
+local Longsword = game:GetService("ReplicatedStorage").WeaponSettings.Longsword
+local m = require (Longsword)
+m.ParryCooldown = 0,8
+m.BlockCooldown = 0.4
+m.WeoponDamage = 45
+m.ParryLength = 0.9
+m.ParryAnimationLength = 0.75
+m.ParryWalkspeed = 8
+m.ExecuteLength = 1.32
